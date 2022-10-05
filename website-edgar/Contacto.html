@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Milian</title>
+
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Carousel-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome cdn   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Css   -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Logo en la pestaña -->
+    <link rel="shortcut icon" href="img/Logo_Jovencitos.png">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header class="header">
+
+        <a href="#" class="logo" data-aos="fade-right"><img src="img/Logo_Jovencitos.png" alt=""></a>
+
+        <nav class="navbar" data-aos="fade-down">
+            <a href="index.html">home</a>
+            <a href="Juegos.html">juegos</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="AcercaDe.html">Acerca de</a>
+            <a href="Contacto.html" class="active">contacto</a>
+        </nav>
+
+        <div class="icons" data-aos="fade-left">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-user" id="login-btn"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="busca aquí..." id="input-box">
+            <label for="input-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="contraseña" class="box">
+            <p>Recuperar contraseña <a href="#">click aquí</a></p>
+            <p>¿No tienes cuenta? <a href="#">crar ahora</a></p>
+            <input type="submit" value="Entrar" class="btn">
+        </form>
+
+    </header>
+
+
+<!-- Contacto  -->
+<br><br><br>
+<br><br><br>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contactanos</span> Escribenos </h1>
+
+    <div class="row">
+
+        <img class="hombre" src="img/hombre.png" data-aos="zoom-in">
+
+        <form action="">
+            <h3 data-aos="zoom-in">Recomendaciones</h3>
+            <input data-aos="zoom-in" type="text" placeholder="nombre" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="email" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="teléfono" class="box">
+            <textarea data-aos="zoom-in" placeholder="mensaje" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!--Footer-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <h3> <img src="img/Logo_Jovencitos.png" alt=""> Jovencitos</h3>
+                <p>Jovencitos te ofrece un amplio catalogo en toda clase de videojuegos</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitch"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contacto</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> jovencito@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> méxico, guanajueto - 37800 </a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <h3>links</h3>
+                <a href="#home" class="links"> <i class="fas fa-home"></i> home </a>
+                <a href="#products" class="links"> <i class="fas fa-gamepad"></i> juegos </a>
+                <a href="#membresia" class="links"> <i class="fas fa-arrow-right"></i> Servicios </a>
+                <a href="#about" class="links"> <i class="fas fa-address-card"></i> Acerca De </a>
+                <a href="#contact" class="links"> <i class="fas fa-address-book"></i> Contacto </a>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <h3>Registrate</h3>
+                <p>suscribete para noticias</p>
+                <input type="email" placeholder="tu email" class="email">
+                <input type="submit" value="subscribete" class="btn">
+            </div>
+
+        </div>
+
+        <div class="credit"><span> Jovencitos </span> | all rights reserved </div>
+
+    </section>
+
+</body>
+
+<!--swiper-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- js  -->
+<script src="js/script.js"></script>
+
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay: 400,
+        duration: 800
+    });
+</script>
+
+</html>

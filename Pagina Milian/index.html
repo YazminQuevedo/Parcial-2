@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Milian</title>
+
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Carousel-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome cdn   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Css   -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Logo en la pestaña -->
+    <link rel="shortcut icon" href="img/Logo_Jovencitos.png">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header class="header">
+
+        <a href="#" class="logo" data-aos="fade-right"><img src="img/Logo_Jovencitos.png" alt=""></a>
+
+        <nav class="navbar" data-aos="fade-down">
+            <a href="#home" class="active">home</a>
+            <a href="#products">juegos</a>
+            <a href="#membresia">Servicios</a>
+            <a href="#about">Acerca de</a>
+            <a href="#contact">contacto</a>
+        </nav>
+
+        <div class="icons" data-aos="fade-left">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-user" id="login-btn"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="busca aquí..." id="input-box">
+            <label for="input-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="contraseña" class="box">
+            <p>Recuperar contraseña <a href="#">click aquí</a></p>
+            <p>¿No tienes cuenta? <a href="#">crar ahora</a></p>
+            <input type="submit" value="Entrar" class="btn">
+        </form>
+
+    </header>
+
+    <!--Home-->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box" style="background: url(img/Banner_01.jpg);">
+                    <div class="content">
+                        <h3>FARCRY</h3>
+                        <p>¡Compralo Ya!</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_02.jpg);">
+                    <div class="content">
+                        <h3>20% De Descuento</h3>
+                        <p>Los Mejores Descuentos</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_03.jpg);">
+                    <div class="content">
+                        <h3>Battlefield 6 </h3>
+                        <p>Las Mejores Batallas</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_04.jpg);">
+                    <div class="content">
+                        <h3>Diviertete Con Los Más Recientes Juegos</h3>
+                        <p>Exclusivos</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_05.jpg);">
+                    <div class="content">
+                        <h3>Halo 5</h3>
+                        <p>Guardians</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_06.jpg);">
+                    <div class="content">
+                        <h3>Bienvenido Al Próximo Nivel</h3>
+                        <p>Jovencitos</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_07.jpg);">
+                    <div class="content">
+                        <h3>final fantasy xv</h3>
+                        <p>Jovencitos</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: url(img/Banner_08.jpg);">
+                    <div class="content">
+                        <h3>God Of War</h3>
+                        <p>Se un dios</p>
+                        <div class="button">
+                            <a href="#" class="btn">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!--VideoJuegos-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> Más <span>Nuevos</span> </h1>
+
+        <div class="swiper products-slider" data-aos="zoom-in">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/halo.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Halo 5</h3>
+                        <div class="price"> $59.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/batman.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Batman</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/Mass_Effect_Legendary_Edition.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mass Effect Legendary Edition</h3>
+                        <div class="price"> $59.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/god_of_war.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>God Of War</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/assassin's_creed.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>assassin's creed</h3>
+                        <div class="price"> $59.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/spiderman.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Spider-Man</h3>
+                        <div class="price"> $49.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1 class="heading"> Más <span>Populares</span> </h1>
+
+        <div class="swiper products-slider" data-aos="zoom-in">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/battlefield_5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Battlefield 5</h3>
+                        <div class="price"> $49.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/cyberpunk_2077.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Cyberpunk 2077</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/farcry_6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>farcry 6</h3>
+                        <div class="price"> $49.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/gta_v.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Grand Theft Auto V</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/red_dead_redemption_2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Red Dead Redemption 2</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/videojuegos/fifa_22.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fifa 22</h3>
+                        <div class="price"> $79.99 <span>$95.99</span> </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Servicios-->
+
+    <section class="membresia" id="membresia">
+
+        <h1 class="heading"> <span>Nuestros</span> Servicios </h1>
+
+
+        <div class="container" data-aos="zoom-in">
+
+            <div class="price-toggler">
+                <span class="basico active">Basico</span>
+                <span class="year">Pro</span>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>12 meses</h3>
+                    <div class="price basico"><span>$</span>900.<span>00</span></div>
+                    <div class="price year"><span>$</span>1000.<span>00</span></div>
+                    <div class="list">
+                        <p> <i class="fas fa-check"></i> Disfruta de más de 1000 juegos de alta calidad en consola y PC
+                        </p>
+                        <p> <i class="fas fa-check"></i> Nuevos juegos agregados constantemente </p>
+                        <p> <i class="fas fa-check"></i> Descuentos y ofertas exclusivas para miembros </p>
+                        <p> <i class="fas fa-check"></i> Equipo De Mantenimiento </p>
+                        <p> <i class="fas fa-check"></i> 100 GB de almacenamiento en la nube </p>
+                        <p> <i class="fas fa-check"></i> Regalo De Cumpleaños </p>
+                    </div>
+                    <a href="#" class="btn">Agregar</a>
+                </div>
+
+                <div class="box">
+                    <h3>3 meses</h3>
+                    <div class="price basico"><span>$</span>250.<span>00</span></div>
+                    <div class="price year"><span>$</span>300.<span>00</span></div>
+                    <div class="list">
+                        <p> <i class="fas fa-check"></i> Disfruta de más de 500 juegos de alta calidad en consola y PC
+                        </p>
+                        <p> <i class="fas fa-check"></i> Nuevos juegos agregados constantemente </p>
+                        <p> <i class="fas fa-check"></i> Descuentos y ofertas exclusivas para miembros </p>
+                        <p> <i class="fas fa-check"></i> Equipo De Mantenimiento </p>
+                        <p> <i class="fas fa-check"></i> 50 GB de almacenamiento en la nube </p>
+                    </div>
+                    <a href="#" class="btn">Agregar</a>
+                </div>
+
+                <div class="box">
+                    <h3>1 mes</h3>
+                    <div class="price basico"><span>$</span>100.<span>00</span></div>
+                    <div class="price year"><span>$</span>150.<span>00</span></div>
+                    <div class="list">
+                        <p> <i class="fas fa-check"></i> Disfruta de más de 500 juegos de alta calidad en consola y PC
+                        </p>
+                        <p> <i class="fas fa-check"></i> Nuevos juegos agregados constantemente </p>
+                        <p> <i class="fas fa-check"></i> Descuentos y ofertas exclusivas para miembros </p>
+                        <p> <i class="fas fa-check"></i> Equipo De Mantenimiento </p>
+                        <p> <i class="fas fa-check"></i> 20 GB de almacenamiento en la nube </p>
+                    </div>
+                    <a href="#" class="btn">Agregar</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sobre nosotros -->
+
+    <section class="about" id="about">
+
+        <div class="image" data-aos="fade-left">
+            <img src="img/Logo_Jovencitos.png" alt="">
+        </div>
+
+        <div class="content">
+            <span data-aos="fade-right">Sobre nosotros</span>
+            <h3 class="title" data-aos="fade-right">El mejor lugar para todos los jovencitos.</h3>
+            <p data-aos="zoom-in">Jovencitos es el mejor lugar para comprar videojuegos, casi 30,000, incluyendo juegos independientes.
+                Disfruta de ofertas exclusivas, actualizaciones de juegos automáticas, y otros beneficios</p>
+            <div class="box-container">
+                <div class="box" data-aos="zoom-out">
+                    <h3><i class="fas fa-arrow-down" data-aos="zoom-in"></i>Digital</h3>
+                    <p>Descarga juegos para consola y PC.</p>
+                </div>
+                <div class="box" data-aos="zoom-out">
+                    <h3><i class="fas fa-parachute-box" data-aos="zoom-in"></i>envios seguros</h3>
+                    <p>Recibe rápido tu videojuego hasta la puerta de tu casa.</p>
+                </div>
+                <div class="box" data-aos="zoom-out">
+                    <h3><i class="far fa-clock" data-aos="zoom-in"></i>Acceso anticipado a juegos</h3>
+                    <p>Descubre, juega e involúcrate con juegos mientras evolucionan.</p>
+                </div>
+                <div class="box" data-aos="zoom-out">
+                    <h3><i class="far fa-star" data-aos="zoom-in"></i>Clásicos</h3>
+                    <p>Juegos clásicos que no encuentras en otro lugar.</p>
+                </div>
+            </div>
+            <a href="#" class="btn" data-aos="zoom-in">Leer más</a>
+        </div>
+
+    </section>
+
+<!-- Contacto  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contactanos</span> Escribenos </h1>
+
+    <div class="row">
+
+        <img class="hombre" src="img/hombre.png" data-aos="zoom-in">
+
+        <form action="">
+            <h3 data-aos="zoom-in">Recomendaciones</h3>
+            <input data-aos="zoom-in" type="text" placeholder="nombre" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="email" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="teléfono" class="box">
+            <textarea data-aos="zoom-in" placeholder="mensaje" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!--Footer-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <h3> <img src="img/Logo_Jovencitos.png" alt=""> Jovencitos</h3>
+                <p>Jovencitos te ofrece un amplio catalogo en toda clase de videojuegos</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitch"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contacto</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> jovencito@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> méxico, guanajueto - 37800 </a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <h3>links</h3>
+                <a href="#home" class="links"> <i class="fas fa-home"></i> home </a>
+                <a href="#products" class="links"> <i class="fas fa-gamepad"></i> juegos </a>
+                <a href="#membresia" class="links"> <i class="fas fa-arrow-right"></i> Servicios </a>
+                <a href="#about" class="links"> <i class="fas fa-address-card"></i> Acerca De </a>
+                <a href="#contact" class="links"> <i class="fas fa-address-book"></i> Contacto </a>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <h3>Registrate</h3>
+                <p>suscribete para noticias</p>
+                <input type="email" placeholder="tu email" class="email">
+                <input type="submit" value="subscribete" class="btn">
+            </div>
+
+        </div>
+
+        <div class="credit"><span> Jovencitos </span> | all rights reserved </div>
+
+    </section>
+
+</body>
+
+<!--swiper-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- js  -->
+<script src="js/script.js"></script>
+
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay: 400,
+        duration: 800
+    });
+</script>
+
+</html>
